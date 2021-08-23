@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common css  */
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-larg{
+    background-color: #FaB702;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0px; 
+    transition: .8s;   
+
+}
+.btn-larg:hover{
+
+    background-color: #080806;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0px;  
+
+}
+.btn-lg-re{
+
+    background-color: #fff;
+    color: #FaB702;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0px; 
+    transition: .8s;
+
+}
+
+.btn-lg-re:hover{
+
+    background-color: #080806;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0px; 
+
+}
+
+
+
+
+/* header section start css   */
+.topbar{
+    background-color: #c7c7c7;
+    color: rgb(70, 71, 71);
+}
+.roteat i{
+    transform: rotate(90deg);
+}
+.container .navbar-brand{
+    font-size: 35px;
+    color: #FaB702;
+    
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    
+    color: #FaB702;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+ul li{
+    margin-left: 40px;
+}
+/* header section end css   */
+
+/* Banner section  */
+.banner-wraper{
+    position: relative;
+}
+.banner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 490px;
+
+}
+.text-with{
+    color: #fff;
+}
+
+.banner-wraper img {
+    max-width: 100%;
+    width: 100%;
+    height: 900px;
+    display: block;
+    position: relative;
+    height: 550px;
+}
+
+.overlay-img{
+    background-color: #313131a1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.get-cote{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FaB702;
+}
+
+/* sarvice section start  */
+.sarvice-wraper{
+    background-color: #f0f0f0;
+}
+.sarvice-text p{
+    max-width: 750px;
+
+}
+.sarvice-text h1{
+    font-weight: 700;
+
+}
+.pad-60{
+    padding: 60px 0;
+}
+/* sarvice section start  */
+.text-sarv-content p{
+    font-size: 17px;
+
+}
+.text-sarv-content a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #3a3a3a;
+    transition: .8s;
+}
+.text-sarv-content a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FaB702;
+}
+.text-sarv-content h5{    
+    font-weight: 600;
+    color: #3a3a3a;
+    transition: .8s;
+}
+.text-sarv-content h5:hover{    
+    font-weight: 600;
+    color: #FaB702;
+}
+.col-md-4 img{
+    height: 50%;
+    width: 100%;
+}
+/* promo section start */
+
+.formo-wraper{
+    background-color: rgb(255, 255, 255);
+}
+.video-wraper{
+    display: block;
+}
+.promo-item,.row{
+    margin: 0px;
+    
+}
+.row-1{
+    margin-top: 40px;
+}
+.t-500{
+    max-width: 450px;
+}
+.promo-item{
+    padding: 100px 0;
+}
+.promo-item h5{
+    font-weight: 600;
+    transition: .7s;
+}
+.promo-item h5:hover{
+    font-weight: 600;
+    color: #FaB702;
+}
+/* promo section end */
+
+/* ================= */
+/* ================= */
+/* Feture section Start */
+/* ================= */
+/* ================= */
+
+.element-item{
+    width: 100%;
+    overflow: hidden;   
+    border: 1px solid #fff;
+}
+
+
+.overlay{
+    background: rgba(64, 224, 208, 0.63);
+    padding: 12px 15px;
+    width: 100%;
+    visibility: hidden;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    position: absolute;
+    left: 0;
+    bottom: -100Px;
+}
+.element-item:hover .overlay{
+    visibility: visible;
+    bottom: 0px;
+}
+.futre-items h5{
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.i-text a{
+    text-decoration: none;
+}
+.icon-overlay{
+    color: #fff;
+    border: 2px solid rgb(5, 177, 160);
+    background: #FaB702;
+    padding: 8px;
+    margin-top: 2px;
+}
+.fiture-item-title{
+    position: relative;
+}
+.fiture-item-title::after{
+    position: absolute;
+    content: "";
+    background-color: white;
+    bottom: -10px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+
+/* ================= */
+/* ================= */
+/* Feture section Start */
+/* ================= */
+/* ================= */
+
+.testimonial-item{
+    margin-bottom: 20px;
+    background-color: #f5f6f7;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc107;
+    border: none;
+}
+.carousel-claint{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Counter section  */
+
+.counter-wreper{
+
+    background-color: #FaB702;
+}
+.counter-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.counter-text p{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+
+/* contect section start */
+
+.contect-wrepar{
+    background-color: #e9e9e9;
+}
+.contect-section{
+    background: #fff;
+    border-left: 6px solid #FaB702;
+    border-radius: 2px;
+    padding: 15px;
+    
+}
